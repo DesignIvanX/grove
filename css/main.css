@@ -95,7 +95,7 @@ aside {
     content: '';
     position: absolute;
     width: 1rem;
-    height: 2rem;
+    height: 2rem; 
     top: 100%;
     right: 0;
     background-color: transparent;
@@ -145,6 +145,7 @@ main {
 .contenedor-productos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .producto  {
@@ -332,7 +333,10 @@ main {
     }
 
     .contenedor-productos {
-        grid-template-columns: 1fr 1fr;
+       display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
     }
 
     .header-mobile {
